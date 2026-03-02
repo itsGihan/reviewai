@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Review AI</title>
+  <meta name="description" content="Analyze e-commerce product reviews (Sinhala, English, Singlish) using AI to predict GOOD/BAD and generate a summary." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <!-- NAV -->
+    <header class="nav">
+	<div class="brand">
+	  <a href="#home" class="brandLogoLink" aria-label="Go to Home">
+		<img src="assets/logo.png" alt="Daraz Review AI Logo" class="brandLogoImg">
+	  </a>
+	</div>
+
+  <!-- Desktop menu -->
+  <nav class="links desktopLinks">
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#how">How it Works</a>
+    <a href="#demo">Demo</a>
+	<a href="https://drive.google.com/drive/folders/1aqG7PY7p1Z1X3s64A39Vin7B3iB3E5cl?usp=drive_link" target="_blank">Download</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Burger button (mobile) -->
+  <button class="burger" type="button" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- Mobile slide menu -->
+<div class="mobileMenu" aria-hidden="true">
+  <div class="mobileMenuHeader">
+    <div class="mobileTitle">Menu</div>
+    <button class="closeMenu" type="button" aria-label="Close menu">✕</button>
+  </div>
+
+  <nav class="mobileLinks">
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#how">How it Works</a>
+    <a href="#demo">Demo</a>
+	<a href="https://drive.google.com/drive/folders/1aqG7PY7p1Z1X3s64A39Vin7B3iB3E5cl?usp=drive_link" target="_blank">Download</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</div>
+<div class="menuBackdrop"></div>
+
+    <!-- HERO -->
+    <main class="hero" id="home">
+      <section class="heroLeft">
+        
+        <h1>Understand products faster using customer reviews.</h1>
+        <p>
+          Our research tool analyzes e-commerce reviews and predicts whether a product is
+          <b>GOOD</b> or <b>BAD</b>, then generates a short AI summary to help users decide quickly.
+        </p>
+
+        <div class="chips">
+          <span class="chip">Web Extension</span>
+          <span class="chip">GOOD / BAD Output</span>
+          <span class="chip">AI Summary</span>
+          <span class="chip">Review Collection</span>
+        </div>
+
+       <div class="cta">
+		  <a class="btn download tip" 
+			   href="https://drive.google.com/drive/folders/1aqG7PY7p1Z1X3s64A39Vin7B3iB3E5cl?usp=drive_link"
+			   target="_blank" 
+			   rel="noopener"
+			   data-tip="Downloads the extension ZIP from Google Drive">
+			  Download Extension
+			</a>
+			
+		  <a class="btn secondary" href="#how">How it Works</a>
+		  <a class="btn secondary" href="#demo">See Demo</a>
+	</div>
+    </section>
+
+    
+	<aside class="heroRight">
+		<img class="coverImg" src="assets/cover.png" alt="Daraz Review AI cover image">
+    </aside>
+    </main>
+
+    <!-- FEATURES -->
+    <section id="features" class="section featuresTimeline">
+  <h2 class="featuresTitle">Features</h2>
+  <p class="featuresSub">
+    Key capabilities designed for multilingual e-commerce review understanding.
+  </p>
+
+  <div class="timeline">
+
+    <div class="tItem">
+      <div class="tContent">
+        <h3>Multilingual Detection</h3>
+        <p>
+          The system intelligently analyzes customer reviews written in <b>Sinhala</b>, <b>English</b>,
+          and <b>Singlish</b>. This ensures accurate sentiment detection even when users mix languages.
+        </p>
+      </div>
+    </div>
+
+    <div class="tItem">
+      <div class="tContent">
+        <h3>Smart Product Insight</h3>
+        <p>
+          Quickly evaluates large numbers of reviews and provides a clear <b>GOOD</b> or <b>BAD</b>
+          product prediction with an AI-generated summary for faster decisions.
+        </p>
+      </div>
+    </div>
+
+    <div class="tItem">
+      <div class="tContent">
+        <h3>User-Friendly Experience</h3>
+        <p>
+          Built for simplicity—one click to analyze. The interface is clean and easy to understand
+          for both customers and sellers without technical knowledge.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="section card">
+      <h2>How it Works</h2>
+	<p class="muted">
+	  The extension collects reviews from the product page, processes the text,
+	  and displays the final prediction with an AI summary.
+	</p>
+	<div class="stepsGrid steps2plus1">
+
+	<div class="stepCard">
+		<img src="assets/How It Used/01.jpeg" alt="Step 1 - Open product page">
+		<h3>Step 1 — Open Product</h3>
+		<p>Go to the product page on the e-commerce website.</p>
+	</div>
+
+  <div class="stepCard">
+    <img src="assets/How It Used/02.jpeg" alt="Step 2 - Analyze product">
+    <h3>Step 2 — Analyze</h3>
+    <p>Click the “Analyze Product” button to start processing.</p>
+  </div>
+
+  <div class="stepCard step3">
+    <img src="assets/How It Used/03.jpeg" alt="Step 3 - View result">
+    <h3>Step 3 — View Result</h3>
+    <p>See GOOD/BAD prediction and AI-generated summary.</p>
+  </div>
+
+</div>
+	
+
+    </section>
+
+    <!-- DEMO -->
+    <section id="demo" class="section card">
+	  <h2>Demo</h2>
+	  <p class="muted">
+		Watch the system in action.
+	  </p>
+
+	  <div class="videoBox">
+		<iframe
+		  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+		  title="Review AI Demo"
+		  frameborder="0"
+		  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+		  allowfullscreen>
+		</iframe>
+	  </div>
+</section>
+  
+
+    <!-- CONTACT -->
+    <section id="contact" class="footerWrap">
+	  <div class="footerInner">
+
+		<!-- LEFT: Logos + Uni info -->
+		<div class="fCol">
+		  <div class="fLogos">
+			<img src="assets/logo1.png" alt="Project Logo" class="fLogo">
+			<img src="assets/logo2.png" alt="University Logo" class="fLogo circle">
+		  </div>
+
+		  <div class="fText">
+			<p class="fSmall">Department of Information and Communication Technology</p>
+			<p class="fSmall">Faculty of Technology</p>
+			<p class="fSmall">University of Sri Jayewardenepura</p>
+			<p class="fSmall fMuted">Focus Area: Network Technology</p>
+		  </div>
+		</div>
+
+		<!-- MIDDLE: Supervisors -->
+		<div class="fCol">
+		  <h3 class="fTitle">Supervisors</h3>
+
+		  <div class="fBlock">
+			<p class="fName">Dr Nuwan Kuruwitaarchchi <span class="fMuted"><br>(Main Supervisor)</span></p>
+			<p class="fSmall">Lecturer, Faculty of Technology, USJ</p>
+			<p class="fSmall"><a class="fLink" href="mailto:kuruwita@sjp.ac.lk">kuruwita@sjp.ac.lk</a></p>
+		  </div>
+
+		  <div class="fBlock">
+			<p class="fName">Mr Surath Kahandawala <span class="fMuted"><br>(Co-supervisor)</span></p>
+			<p class="fSmall">Lecturer, Faculty of Technology, USJ</p>
+			<p class="fSmall"><a class="fLink" href="mailto:surathayodhya@sjp.ac.lk">surathayodhya@sjp.ac.lk</a></p>
+		  </div>
+		</div>
+
+		<!-- RIGHT: Team members-->
+		<div class="fCol">
+		  <h3 class="fTitle">Team Members</h3>
+
+		  <div class="fBlock">
+			<p class="fName">U.G.D.H.D. Abeysekara</p>
+			<p class="fSmall">Focus Area: Network Technology</p>
+			<p class="fSmall"><a class="fLink" href="tel:+94768430600">076 843 0600</a></p>
+			<p class="fSmall"><a class="fLink" href="mailto:ICT21801@fot.sjp.ac.lk">ICT21801@fot.sjp.ac.lk</a></p>
+		  </div>
+		  
+		  <div class="fBlock">
+			<p class="fName">K.A.T.R. Karunarathna</p>
+			<p class="fSmall">Focus Area: Network Technology</p>
+			<p class="fSmall"><a class="fLink" href="tel:+94787059350">078 705 9350</a></p>
+			<p class="fSmall"><a class="fLink" href="mailto:ICT21868@fot.sjp.ac.lk">ICT21868@fot.sjp.ac.lk</a></p>
+		  </div>
+
+		  <div class="fBlock">
+			<p class="fName">K.M.G.M. Kekulandara</p>
+			<p class="fSmall">Focus Area: Network Technology</p>
+			<p class="fSmall"><a class="fLink" href="tel:+94772812292">077 281 2292</a></p>
+			<p class="fSmall"><a class="fLink" href="mailto:ICT21873@fot.sjp.ac.lk">ICT21873@fot.sjp.ac.lk</a></p>
+		  </div>
+
+		  
+		</div>
+
+	  </div>
+
+	  <div class="footerBottom">
+		<div class="footerLine"></div>
+    <p class="footerCopy">Group 40</p>
+		<p class="footerCopy">© 2026 — Review AI | University of Sri Jayewardenepura</p>
+	  </div>
+	</section>
+
+  </div>
+</body>
+</html>
